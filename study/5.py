@@ -1,7 +1,7 @@
-from turtle import *
+import turtle
 from random import random, randint
 
-screen = Screen()
+screen = turtle.Screen()
 width, height = 800, 600
 screen.setup(width, height)
 screen.title("模拟3D星空_海龟画图版_作者:李兴球")
@@ -9,7 +9,7 @@ screen.bgcolor("black")
 screen.mode("logo")
 screen.delay(0)  # 这里要设为0，否则很卡
 
-t = Turtle(visible=False, shape='circle')
+t = turtle.Turtle(visible=False, shape='circle')
 t.pencolor("white")
 t.fillcolor("white")
 t.penup()
