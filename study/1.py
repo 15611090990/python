@@ -12,7 +12,7 @@ zongshu = 1
 yeshu = 0
 
 
-def to_get_url(host, page_num):
+def to_get_url(host, page_num):  # TODO:
     global zongshu
     global yeshu
     yeshu = page_num
